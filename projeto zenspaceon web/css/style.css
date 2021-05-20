@@ -1,52 +1,83 @@
 /* Estilos gerais */
 
-*, *:before, *:after {
-    -webkit-box-sizing: border-box; 
-    -moz-box-sizing: border-box; 
-    box-sizing: border-box;
-  }
-  
-  .container {
-      width: 960px;
-      margin: 0 auto;
-      padding: 0px;
-      position: relative;
-  }
-  
-  .container:after, .container:before {
-      content: " ";
-      display: table;
-  }
-  
-  .container:after {
-      clear: both;
-  }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-/* Para as boxes, usar as propriedades abaixo:
-float: left;
-margin-left: 10px;
-margin-right: 10px;  */
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
 
-/* Tamanho relativo pora as boxes:
-
-.grid-1 	{width: 40px;}
-.grid-2 	{width: 100px;}
-.grid-3 	{width: 160px;}
-.grid-4 	{width: 220px;}
-.grid-5 	{width: 280px;}
-.grid-6 	{width: 340px;}
-.grid-7 	{width: 400px;}
-.grid-8 	{width: 460px;}
-.grid-9 	{width: 520px;}
-.grid-10 	{width: 580px;}
-.grid-11 	{width: 640px;}
-.grid-12 	{width: 700px;}
-.grid-13 	{width: 760px;}
-.grid-14 	{width: 820px;}
-.grid-15 	{width: 880px;}
-.grid-16 	{width: 940px;}
-.grid-1-3	{width: 300px;}
-
-*/
+img {
+    display: block;
+    max-width: 100%;
+}
 
 /* Header */
+
+.header {
+    width: 100%;
+    background-color: #17d19c;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-menu {
+    text-align: right;
+}
+
+.header-menu li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header-menu li a {
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 0;
+}
+
+.header-menu li a:hover {
+    color: black;
+}
+
+/* Home - introdução */
+
+.introducao {
+    width: 100%;
+    height: 514px;
+    background: url("../img/home-bg.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 92px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.introducao h1 {
+    font-size: 48px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.introducao h3 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.introducao p {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 80px 100px 40px 100px;
+}
