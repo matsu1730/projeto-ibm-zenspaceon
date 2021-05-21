@@ -45,6 +45,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    font-size: 48px;
+    color: #484B4D;
+    font-weight: bold;
+}
+
+
 h2 {
     font-size: 36px;
     font-weight: bold;
@@ -52,9 +59,13 @@ h2 {
     margin-top: 60px;
 }
 
+h3 {
+    font-size: 24px;
+}
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
 }
 
