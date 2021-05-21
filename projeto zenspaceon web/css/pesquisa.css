@@ -7,7 +7,7 @@
     width: 700px;
     height: 30px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .filtros {
@@ -23,7 +23,7 @@
 
 .filtros .btn {
     margin-top: 30px;
-    margin-bottom: 200px;
+    margin-bottom: 125px;
 }
 
 .filtro-item {
@@ -49,4 +49,41 @@
     margin-top: 10px;
     margin-right: 5px;
     border-style: none;
+}
+
+/* Resultados da busca */
+
+.resultados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.resultados h2 {
+    color: #484B4D;
+    margin-bottom: 40px;
+    margin-right: 200px;
+}
+
+.resultado-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultado-items .item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    width: 520px;
+    
+    border: 1px solid #17d19c;
+    border-radius: 12px;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.resultado-items .item img {
+    margin-right: 10px;
 }
