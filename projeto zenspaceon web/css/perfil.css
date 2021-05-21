@@ -1,0 +1,119 @@
+.perfil{
+ margin-top: 92px;
+padding-top: 60px;
+}
+.perfil img{
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    margin: 0 120px;
+    align-items: center;
+
+}
+.perfil-itens{
+    display: flex;
+    flex-direction: row;
+
+}
+.perfil-itens h1{
+    text-transform:capitalize;
+    font-size: 48px;
+    font-weight: bold;
+     
+}
+.perfil-itens p{
+    padding-top: 20px ;
+    font-size: 24px;
+}
+.box-bio h3{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.box-bio p{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.box-bio{
+    padding: 0 120px;
+    margin-top: 40px;
+}
+.alinhar .btn{
+    
+    
+
+
+}
+.conteiner-2{
+    background-color: #17d19c;
+    padding-bottom: 60px;
+    color:#ffffff;
+}
+
+.conteiner-2 h2{
+    text-align: center;
+    padding-top: 30px;
+
+}
+.home-agenda-lista .btn{
+    padding: 3px 10px;
+    height: 20px;
+    margin-top:15px ;
+    margin-right: 5px;
+}
+.conteiner-2 h4{
+    margin-left: 33vw;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.conteiner-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteiner-3 h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+.atual{
+    border: 3px solid #17d19c;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+
+}
+.pai{
+    display: flex;
+    flex-direction: column;
+}
+.atual{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:10px;
+    margin-left:120px;
+    align-items: center;
+}
+.plano-item{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform:capitalize;
+}
+.pai .btn{
+    padding: 3px 10px;
+    height: 20px;
+    margin-top:15px ;
+    margin-right: 260px;
+    margin-left: 250px;
+    margin-bottom:30px ;
+
+}
+.pai p{
+
+    font-size: 18px;
+}
