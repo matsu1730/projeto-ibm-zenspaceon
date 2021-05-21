@@ -30,3 +30,33 @@
     height: 280px;
     margin-top: 25px;
 }
+
+/* Valores */
+.valores {
+    width: 100%;
+    background-color: #17d19c;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.valores h2 {
+    padding-top: 20px;
+    padding-bottom: 210px;
+}
+
+.valores .valores-items {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-bottom: 180px;
+}
+
+.valores-items .item {
+    padding-right: 100px;
+}
+
+.valores-items .item h4 {
+    font-weight: bold;
+    padding-bottom: 25px;
+}
