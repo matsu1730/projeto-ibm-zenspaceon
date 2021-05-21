@@ -1,0 +1,53 @@
+.perfil{
+ margin-top: 92px;
+padding-top: 60px;
+}
+.perfil img{
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    margin: 0 120px;
+
+}
+.perfil-itens{
+    display: flex;
+    flex-direction: row;
+
+}
+.perfil-itens h1{
+    text-transform:capitalize;
+    font-size: 48px;
+    font-weight: bold;
+}
+.perfil-itens p{
+    padding-top: 20px ;
+    font-size: 24px;
+}
+.box-bio h3{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.box-bio p{
+    font-size: 18px;
+}
+.box-bio{
+    padding: 0 120px;
+    margin-top: 40px;
+}
+.perfil .btn{
+    text-align:center ;
+
+}
+.conteiner-2{
+    background-color: #17d19c;
+}
+.conteiner-2 {
+    color:#ffffff;
+} 
+.conteiner-2 h2{
+    text-align: center;
+    padding: 60px;
+
+}
