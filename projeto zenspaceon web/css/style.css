@@ -1,4 +1,4 @@
-/* Estilos gerais */
+/* Containers: definição dos tamanhos das boxes para mais fácil edição */
 
 *, *:before, *:after {
     -webkit-box-sizing: border-box; 
@@ -21,32 +21,267 @@
   .container:after {
       clear: both;
   }
+  
+  .box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8, .box-9, .box-10, .box-11, .box-12, .box-13, .box-14, .box-15, .box-16, .box-1-3 {
+      float: left;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  
+  .box-1 	{width: 40px;}
+  .box-2 	{width: 100px;}
+  .box-3 	{width: 160px;}
+  .box-4 	{width: 220px;}
+  .box-5 	{width: 280px;}
+  .box-6 	{width: 340px;}
+  .box-7 	{width: 400px;}
+  .box-8 	{width: 460px;}
+  .box-9 	{width: 520px;}
+  .box-10 {width: 580px;}
+  .box-11 {width: 640px;}
+  .box-12 {width: 700px;}
+  .box-13 {width: 760px;}
+  .box-14 {width: 820px;}
+  .box-15 {width: 880px;}
+  .box-16 {width: 940px;}
+  .box-1-3 {width: 300px;}
 
-/* Para as boxes, usar as propriedades abaixo:
-float: left;
-margin-left: 10px;
-margin-right: 10px;  */
+/* Estilos gerais */
 
-/* Tamanho relativo pora as boxes:
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-.grid-1 	{width: 40px;}
-.grid-2 	{width: 100px;}
-.grid-3 	{width: 160px;}
-.grid-4 	{width: 220px;}
-.grid-5 	{width: 280px;}
-.grid-6 	{width: 340px;}
-.grid-7 	{width: 400px;}
-.grid-8 	{width: 460px;}
-.grid-9 	{width: 520px;}
-.grid-10 	{width: 580px;}
-.grid-11 	{width: 640px;}
-.grid-12 	{width: 700px;}
-.grid-13 	{width: 760px;}
-.grid-14 	{width: 820px;}
-.grid-15 	{width: 880px;}
-.grid-16 	{width: 940px;}
-.grid-1-3	{width: 300px;}
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 60px;
+}
 
-*/
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.btn {
+    border: 3px solid #17d19c;
+    padding: 10px 30px; 
+    color: #17d19c;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border-radius: 12px;
+}
+
+.btn.btn-branco {
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.btn:hover {
+    color: #484B4D;
+    border-color: #484B4D;
+}
 
 /* Header */
+
+.header {
+    width: 100%;
+    background-color: #17d19c;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-menu {
+    text-align: right;
+}
+
+.header-menu li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header-menu li a {
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 0;
+}
+
+.header-menu li a:hover {
+    color: #484B4D;
+}
+
+.menu-ativo {
+    color: #484B4D;
+    border-color: #484B4D;
+}
+
+/* Home - introdução */
+
+.introducao {
+    width: 100%;
+    height: 514px;
+    background: url("../img/home-bg.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 92px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.introducao h1 {
+    font-size: 48px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.introducao h3 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.introducao p {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 80px 100px 40px 100px;
+}
+
+/* Home - Opiniões */
+
+.home-opinioes {
+    text-align: center;
+    color: #484B4D;
+    width: 580px;
+}
+
+.home-opinioes p {
+    margin: 40px 0 10px 0;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 50px;
+    font-style: italic;
+}
+
+.home-opinioes cite {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.call-to-action {
+    text-align: center;
+    clear: both;
+    padding: 40px
+}
+
+.call-to-action p {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0;
+}
+
+/* Home - Agenda */
+
+.home-agenda {
+    width: 100%;
+    background: #17d19c;
+    text-align: center;
+    color: #FFF;
+    padding-bottom: 20px;
+}
+
+.home-agenda h2 {
+    margin-bottom: 40px;
+}
+
+.home-agenda-lista {
+    display: flex;
+    width: 620px;
+    height: 60px;
+    background-color: #FFF;
+    color: #484B4D;
+    margin-bottom: 20px;
+}
+
+.home-agenda-lista img {
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px;
+    float: left;
+}
+
+.home-agenda-lista p, .home-agenda-lista span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 20px;
+    padding: 20px 10px 0 10px;
+    align-items: center;
+}
+
+.home-agenda-lista p {
+    flex-grow: 1;
+    flex-basis: 50px;
+    text-align: left;
+}
+
+/* Quebra */
+
+.quebra {
+    text-align: center;
+    width: 100%;
+    height: 195px;
+    background: url("../img/quebra-bg.jpg") no-repeat center;
+    background-size: cover;
+    color: #FFF;
+}
+
+.quebra p {
+    margin: 70px auto 10px auto;
+    font-size: 18px;
+    line-height: 24px;
+    font-style: italic;
+    padding: 0 150px 0 150px;
+}
+
+.quebra cite {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Footer */
+
+.footer-copyright {
+    width: 100%;
+    height: 60px;
+    background-color: #484B4D;
+}
+
+.footer-copyright small {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    padding: 20px 0;
+}
