@@ -50,10 +50,15 @@
     flex-direction: row;
     padding: 10px;
     padding-bottom: 180px;
+    align-items: flex-start;
+    align-items: center;
 }
 
 .valores-items .item {
-    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
 }
 
 .valores-items .item h4 {
