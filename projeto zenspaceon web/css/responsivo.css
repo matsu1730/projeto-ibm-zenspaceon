@@ -73,11 +73,14 @@
 
     /* Assinatura */
 
-    .plano-item{
+    .planos {
+        width: 768px;
+    }
+
+    .plano-item-1{
         width: 240px;
         height: 180px;
         text-align: center;
-        margin-top: 150px;
     }
     
     .plano-item h2{ 
@@ -85,19 +88,11 @@
         color: #fff;
     }
     
-    .planos {
-        width: 768px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    
-    .plano-item2{
+    .plano-item-2{
         background-color: #3C7B69;
         width: 240px;
         height: 100px;
         text-align: center;
-        margin-bottom: 80px;
         padding: 10px 0;
         color: #fff;
     }
@@ -310,5 +305,19 @@
     }
 
     /* Assinatura */
+
+    .cabecalho {
+        margin-top: 0;
+        padding-top: 60px;
+    }
+
+    .planos {
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .plano-item {
+        margin-top: 20px;
+    }
 
 }
