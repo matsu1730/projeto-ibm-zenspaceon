@@ -52,6 +52,16 @@
     .valores-items .item {
         padding: 0 15px;
     }
+
+    /* Perfil */
+
+    .perfil-itens h1 {
+        font-size: 36px;
+    }
+
+    .perfil-itens p {
+        font-size: 18px;
+    }
 	
 }
 

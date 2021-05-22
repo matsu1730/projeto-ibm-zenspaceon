@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZenSpace ON - Perfil</title>
 
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/perfil.css">
+    <link rel="stylesheet" href="../css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/perfil.css" type="text/css">
+    <link rel="stylesheet" href="../css/responsivo.css" type="text/css">
 
 </head>
 <body>
@@ -28,67 +29,64 @@
     </header>
     
 
-        <section class="perfil container">
-            <div class="perfil-itens">
-                <img src="../img/pessoas/foto-perfil.jpg" alt="foto de perfil" class="box-8">
-                <div class="box-8">
-                    <h1>Nome Exemplo</h1>
-                    <p>25 anos</p>
-                    <p>+55 11 9999-9999</p>
-                    <p>nome.exemplo@email.com</p>
-                </div>
+    <section class="perfil container">
+        <div class="perfil-itens">
+            <img src="../img/pessoas/foto-perfil.jpg" alt="foto de perfil" class="box-8">
+            <div class="box-8">
+                <h1>Nome Exemplo</h1>
+                <p>25 anos</p>
+                <p>+55 11 9999-9999</p>
+                <p>nome.exemplo@email.com</p>
             </div>
-            <div class="box-bio">
+        </div>
+        <div class="box-bio">
             <div class="bio-titulo">
                 <h3>Bio</h3>
             </div class= "alinhar">
-                <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore culpa voluptates quasi ea eligendi inventore ex, ratione quis quas cumque mollitia, totam ipsa consequatur asperiores, assumenda error excepturi doloribus voluptate! consectetur adipisicing elit. Eaque molestiae eius et labore explicabo necessitatibus corrupti asperiores ipsum nobis ullam deleniti vitae aliquid nisi, obcaecati ratione? Debitis, maiores! Illum, quis?</p>
-                <a href="null" class="btn">editar perfil</a>
-            </div>
-           
-        </section>
+            <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore culpa voluptates quasi ea eligendi inventore ex, ratione quis quas cumque mollitia, totam ipsa consequatur asperiores, assumenda error excepturi doloribus voluptate! consectetur adipisicing elit. Eaque molestiae eius et labore explicabo necessitatibus corrupti asperiores ipsum nobis ullam deleniti vitae aliquid nisi, obcaecati ratione? Debitis, maiores! Illum, quis?</p>
+            <a href="null" class="btn">editar perfil</a>
+        </div> 
+    </section>
 
         
-        <section class="Agenda">
-            
-            <div class="conteiner-2">
-                <h2>Agenda</h2>
-                <h4>Maio</h4>
-                
-                <div class="home-agenda-lista container">
-                    <img src="../img/pessoas/doc-3.jpg" alt="Sergio">
-                    <p>24</p>
-                    <p>16:00</p>
-                    <p>Dr. Sergio</p>
-                    <a href="null" class="btn">editar</a>
-                </div>
+    <section class="perfil-agenda">
+        <div class="container">
+            <h2>Agenda</h2>
+        </div>
 
-                <div class="home-agenda-lista container">
-                    <img src="../img/pessoas/doc-1.jpg" alt="Cristina">
-                    <p>28</p>
-                    <p>17:00</p>
-                    <p>Dr. Cristina</p>
-                    <a href="null" class="btn">editar</a>
-                </div>
+        <div class="agenda-lista container">
+            <img src="../img/pessoas/doc-3.jpg" alt="Dr Sergio">
+            <p>24 de maio de 2021. 16:00h</p>
+            <span>Dr. Sergio</span>
+            <a href="null" class="btn">editar</a>
+        </div>
 
-                <h4>Junho</h4>
+        <div class="agenda-lista container">
+            <img src="../img/pessoas/doc-1.jpg" alt="Dr Sergio">
+            <p>28 de maio de 2021. 16:00h</p>
+            <span>Dra. Cristina</span>
+            <a href="null" class="btn">editar</a>
+        </div>
 
-                <div class="home-agenda-lista container">
-                    <img src="../img/pessoas/doc-4.jpg" alt="Cristina">
-                    <p>06</p>
-                    <p>16:00</p>
-                    <p>Dr. julia</p>
-                    <a href="null" class="btn">editar</a>
-                </div>
-            </div>
+        <div class="agenda-lista container">
+            <img src="../img/pessoas/doc-4.jpg" alt="Dr Sergio">
+            <p>06 de junho de 2021. 16:00h</p>
+            <span>Dra. Julia</span>
+            <a href="null" class="btn">editar</a>
+        </div>
 
-        </section>
-        <section class="conteiner-3">
-                <h1>Plano de assinatura</h1>
+        <div class="call-to-action">
+            <p>Acesse sua agenda para mais detalhes</p>
+            <a href="../perfil/perfil.html" class="btn btn-branco">Agenda</a>
+        </div>
+    </section>
+
+    <section class="perfil-planos container">
+        <h1>Planos de Assinatura</h1>
         <div class="pai">
             <div class="atual">
                 <p class="plano-item">atual:</p>
-                <p>basico</p>
+                <p>básico</p>
             </div>
 
             <div class="atual">
@@ -97,44 +95,34 @@
             </div>
 
             <div class="atual">
-                <p class="plano-item">consultas disponiveis/mes:</p>
+                <p class="plano-item">consultas disponíveis/mês:</p>
                 <p>2</p>
             </div>
 
             <div class="atual">
-                <p class="plano-item">metodo:</p>
-                <p>Cartao final 4040</p>
+                <p class="plano-item">método:</p>
+                <p>Cartão final 4040</p>
             </div>
-            <a href="null" class="btn">Gerencia assinatura</a>
+            <a href="null" class="btn">Gerenciar assinatura</a>
         </div>
-        </section>
+    </section>
 
-        <section class="quebra">
-            <blockquote class="quote-externo container">
-                <p>
-                    "A felicidade se espalha. Quando nós escolhemos a felicidade, fica mais fácil para os outros também escolhê-la."   
-                </p>
-                <cite>Shawn Achor</cite>
-            </blockquote>
-        </section>
-    
-        <footer>
-            <div class="footer-copyright">
-                <div class="container">
-                    <small class="box-16">ZenSpace ON 2021 - Alguns direitos reservados.</small>
-                </div>
+    <section class="quebra">
+        <blockquote class="quote-externo container">
+            <p>
+                "A felicidade se espalha. Quando nós escolhemos a felicidade, fica mais fácil para os outros também escolhê-la."   
+            </p>
+            <cite>Shawn Achor</cite>
+        </blockquote>
+    </section>
+
+    <footer>
+        <div class="footer-copyright">
+            <div class="container">
+                <small class="box-16">ZenSpace ON 2021 - Alguns direitos reservados.</small>
             </div>
-        </footer>
-
-    
-    
-    
-    
-    
-    
-    
-    
-   
+        </div>
+    </footer>
 
 </body>
 </html>
