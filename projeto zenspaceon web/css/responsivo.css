@@ -215,4 +215,38 @@
         margin-bottom: 60px;
     }
 
+    /* Pesquisa */
+
+    .formulario {
+        margin-top: 60px;
+    }
+
+    #busca {
+        width: 300px;
+    }
+
+    .filtros h4 {
+        margin-left: 40px;
+    }
+
+    .filtro-item {
+        width: 300px;
+    }  
+
+    .filtro-item .item {
+        width: 150px;
+    }
+
+    .filtros .btn {
+        margin-bottom: 60px;
+    }
+
+    .resultado-items .item{
+        width: 300px;
+    }
+
+    .conteudo span {
+        font-size: 14px;
+    }
+
 }
