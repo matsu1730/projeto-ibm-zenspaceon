@@ -67,6 +67,10 @@
         width: 560px;
     }
 
+    .pai {
+        align-items: flex-start;
+    }
+
     /* Assinatura */
 
     .plano-item{
@@ -252,5 +256,59 @@
     .conteudo span {
         font-size: 14px;
     }
+
+    /* Perfil */
+
+    .perfil {
+        margin-top: 0;
+    }
+
+    .perfil-itens{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .perfil-itens h1{
+        margin-top: 10px;
+        font-size: 36px;
+    }
+
+    .perfil-itens p{
+        padding-top: 15px;
+        font-size: 18px;
+    }
+
+    .box-bio {
+        padding: 0;
+    }
+
+    .agenda-lista {
+        height: 160px;
+        flex-direction: column;
+    }
+
+    .agenda-lista img {
+        margin-bottom: 0;
+    }
+
+    .agenda-lista p, .agenda-lista span {
+        padding-top: 10px;
+    }
+
+    .agenda-lista .btn {
+        text-align: center;
+        width: 100px;
+        padding: 3px 5px;
+        margin: 0 auto 10px auto;
+    }
+
+    .perfil-planos h1 {
+        margin-left: 55px;
+    }
+    .atual {
+        width: 400px;
+    }
+
+    /* Assinatura */
 
 }

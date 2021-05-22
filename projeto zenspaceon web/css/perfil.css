@@ -7,7 +7,7 @@
     width: 220px;
     height: 220px;
     text-align: center;
-    margin: 0 120px;
+    margin: 0 auto;
     align-items: center;
 
 }
@@ -26,6 +26,10 @@
     padding-top: 20px ;
     font-size: 24px;
 }
+.box-bio{
+    padding: 0 120px;
+    margin-top: 40px;
+}
 .box-bio h3{
     font-size: 36px;
     font-weight: bold;
@@ -35,10 +39,6 @@
 .box-bio p{
     font-size: 18px;
     padding-bottom: 30px;
-}
-.box-bio{
-    padding: 0 120px;
-    margin-top: 40px;
 }
 .perfil-agenda {
     width: 100%;
@@ -98,20 +98,15 @@
     margin-top: 30px;
     margin-bottom: 30px; 
 }
-.atual{
-    border: 1px solid #17d19c;
-    border-radius: 8px;
-    width: 500px;
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-
-}
 .pai{
     display: flex;
     flex-direction: column;
 }
 .atual{
+    border: 1px solid #17d19c;
+    border-radius: 8px;
+    width: 500px;
+    height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -123,6 +118,7 @@
     font-size: 25px;
     font-weight: bold;
     text-transform:capitalize;
+    float: left;
 }
 .pai .btn{
     padding: 10px 10px;
@@ -130,6 +126,6 @@
 
 }
 .pai p{
-    font-size: 18px;
+    font-size: 14px;
     padding: 0 5px;
 }
