@@ -206,6 +206,10 @@
 
     /* Sobre */
 
+    .sobre-nos {
+        margin-top: 20px;
+    }
+
     .valores .valores-items {
         justify-content: space-between;
         flex-direction: column;
@@ -218,7 +222,7 @@
     /* Pesquisa */
 
     .formulario {
-        margin-top: 60px;
+        margin-top: 20px;
     }
 
     #busca {
