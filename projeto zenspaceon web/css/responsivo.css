@@ -62,6 +62,10 @@
     .perfil-itens p {
         font-size: 18px;
     }
+
+    .agenda-lista {
+        width: 560px;
+    }
 	
 }
 
