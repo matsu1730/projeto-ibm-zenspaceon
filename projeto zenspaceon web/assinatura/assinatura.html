@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/assinatura.css">
+    <link rel="stylesheet" href="../css/responsivo.css">
 </head>
 <body>
     <header class="header">
@@ -66,15 +67,30 @@
         </div>
     </section>
 
-    <section class="plano-assinatura">
-        <div class="container-plano">
-            <h2>Plano de assinatura</h2>
-        </div>
-        <div class="formulario">
-            <form>
-                
-            </form>
-        </div>
+    <section class="formulario-container">
+        <h2>Plano de assinatura</h2>
+        <form action="#">
+
+            <div class="plano-assinatura">
+                <div class="opcao-pagamento"> 
+                    <label for="planos">Plano Atual: </label>
+                    <select class="item" name="plano" id="IdPlano">
+                        <option value="basico">Básico</option>
+                        <option value="intermediario">Intermediário</option>
+                        <option value="completo">Completo</option>
+                    </select>
+                </div>
+
+                <div class="opcao-pagamento">
+                    <label for="metodo">Método: </label>
+                    <select class="item" name="metodo" id="IdMetodo">
+                        <option value="cartao">Cartão</option>
+                        <option value="boleto">Boleto</option>
+                        <input class="btn" type="submit" value="Editar">
+                    </select>
+                </div>
+            </div>
+        </form>
     </section>
 
     <section class="quebra">

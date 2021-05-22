@@ -66,6 +66,37 @@
     .agenda-lista {
         width: 560px;
     }
+
+    /* Assinatura */
+
+    .plano-item{
+        width: 240px;
+        height: 180px;
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    .plano-item h2{ 
+        font-size: 48px;
+        color: #fff;
+    }
+    
+    .planos {
+        width: 768px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .plano-item2{
+        background-color: #3C7B69;
+        width: 240px;
+        height: 100px;
+        text-align: center;
+        margin-bottom: 80px;
+        padding: 10px 0;
+        color: #fff;
+    }
 	
 }
 
