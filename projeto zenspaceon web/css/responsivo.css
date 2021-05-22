@@ -142,5 +142,66 @@
     .header-menu li a:hover {
         border-color: #484B4D;
     }
-	
+    
+    /* Index */
+
+    .introducao {
+        margin-top: 0;
+    }
+
+    .introducao p {
+        color: #FFF;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 40px 0 40px 0;
+    }
+
+    .home-opinioes {
+        text-align: center;
+        color: #484B4D;
+        max-width: 100%;
+    }
+    
+    .home-opinioes p {
+        margin: 40px 0 10px 0;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0;
+        font-style: italic;
+    }
+    
+    .home-opinioes cite {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    .call-to-action {
+        text-align: center;
+        clear: both;
+        padding: 20px 0 40px 0;
+    }
+
+    .call-to-action p {
+        padding-bottom: 10px;
+    }
+
+    .home-agenda-lista p, .home-agenda-lista span {
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .quebra p {
+        margin: 70px auto 10px auto;
+        font-size: 14px;
+        line-height: 20px;
+        font-style: italic;
+        padding: 0;
+    }
+
+    .footer-copyright {
+        padding-top: 20px;
+    }
+
 }
