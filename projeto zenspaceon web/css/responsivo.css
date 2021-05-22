@@ -204,4 +204,15 @@
         padding-top: 20px;
     }
 
+    /* Sobre */
+
+    .valores .valores-items {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .item {
+        margin-bottom: 60px;
+    }
+
 }
