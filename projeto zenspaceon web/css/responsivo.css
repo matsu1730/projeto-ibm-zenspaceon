@@ -62,6 +62,40 @@
     .perfil-itens p {
         font-size: 18px;
     }
+
+    .agenda-lista {
+        width: 560px;
+    }
+
+    .pai {
+        align-items: flex-start;
+    }
+
+    /* Assinatura */
+
+    .planos {
+        width: 768px;
+    }
+
+    .plano-item-1{
+        width: 240px;
+        height: 180px;
+        text-align: center;
+    }
+    
+    .plano-item h2{ 
+        font-size: 48px;
+        color: #fff;
+    }
+    
+    .plano-item-2{
+        background-color: #3C7B69;
+        width: 240px;
+        height: 100px;
+        text-align: center;
+        padding: 10px 0;
+        color: #fff;
+    }
 	
 }
 
@@ -107,5 +141,183 @@
     .header-menu li a:hover {
         border-color: #484B4D;
     }
-	
+    
+    /* Index */
+
+    .introducao {
+        margin-top: 0;
+    }
+
+    .introducao p {
+        color: #FFF;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 40px 0 40px 0;
+    }
+
+    .home-opinioes {
+        text-align: center;
+        color: #484B4D;
+        max-width: 100%;
+    }
+    
+    .home-opinioes p {
+        margin: 40px 0 10px 0;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0;
+        font-style: italic;
+    }
+    
+    .home-opinioes cite {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    .call-to-action {
+        text-align: center;
+        clear: both;
+        padding: 20px 0 40px 0;
+    }
+
+    .call-to-action p {
+        padding-bottom: 10px;
+    }
+
+    .home-agenda-lista p, .home-agenda-lista span {
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .quebra p {
+        margin: 70px auto 10px auto;
+        font-size: 14px;
+        line-height: 20px;
+        font-style: italic;
+        padding: 0;
+    }
+
+    .footer-copyright {
+        padding-top: 20px;
+    }
+
+    /* Sobre */
+
+    .sobre-nos {
+        margin-top: 20px;
+    }
+
+    .valores .valores-items {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .item {
+        margin-bottom: 60px;
+    }
+
+    /* Pesquisa */
+
+    .formulario {
+        margin-top: 20px;
+    }
+
+    #busca {
+        width: 300px;
+    }
+
+    .filtros h4 {
+        margin-left: 40px;
+    }
+
+    .filtro-item {
+        width: 300px;
+    }  
+
+    .filtro-item .item {
+        width: 150px;
+    }
+
+    .filtros .btn {
+        margin-bottom: 60px;
+    }
+
+    .resultado-items .item{
+        width: 300px;
+    }
+
+    .conteudo span {
+        font-size: 14px;
+    }
+
+    /* Perfil */
+
+    .perfil {
+        margin-top: 0;
+    }
+
+    .perfil-itens{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .perfil-itens h1{
+        margin-top: 10px;
+        font-size: 36px;
+    }
+
+    .perfil-itens p{
+        padding-top: 15px;
+        font-size: 18px;
+    }
+
+    .box-bio {
+        padding: 0;
+    }
+
+    .agenda-lista {
+        height: 160px;
+        flex-direction: column;
+    }
+
+    .agenda-lista img {
+        margin-bottom: 0;
+    }
+
+    .agenda-lista p, .agenda-lista span {
+        padding-top: 10px;
+    }
+
+    .agenda-lista .btn {
+        text-align: center;
+        width: 100px;
+        padding: 3px 5px;
+        margin: 0 auto 10px auto;
+    }
+
+    .perfil-planos h1 {
+        margin-left: 55px;
+    }
+    .atual {
+        width: 400px;
+    }
+
+    /* Assinatura */
+
+    .cabecalho {
+        margin-top: 0;
+        padding-top: 60px;
+    }
+
+    .planos {
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .plano-item {
+        margin-top: 20px;
+    }
+
 }
