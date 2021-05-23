@@ -40,6 +40,9 @@
     font-size: 18px;
     padding-bottom: 30px;
 }
+.btn-perfil {
+    margin-left: 265px;
+}
 .perfil-agenda {
     width: 100%;
     background: #17d19c;

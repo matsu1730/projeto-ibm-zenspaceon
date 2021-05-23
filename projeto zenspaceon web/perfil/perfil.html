@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../css/perfil.css" type="text/css">
     <link rel="stylesheet" href="../css/responsivo.css" type="text/css">
 
+    <script>document.documentElement.classList.add("js");</script>
+
 </head>
 <body>
 
@@ -30,7 +32,7 @@
     
 
     <section class="perfil container">
-        <div class="perfil-itens">
+        <div data-anime="400" class="perfil-itens fadeInDown">
             <img src="../img/pessoas/foto-perfil.jpg" alt="foto de perfil" class="box-8">
             <div class="box-8">
                 <h1>Nome Exemplo</h1>
@@ -39,45 +41,45 @@
                 <p>nome.exemplo@email.com</p>
             </div>
         </div>
-        <div class="box-bio">
+        <div data-anime="800" class="box-bio">
             <div class="bio-titulo">
                 <h3>Bio</h3>
             </div class= "alinhar">
             <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore culpa voluptates quasi ea eligendi inventore ex, ratione quis quas cumque mollitia, totam ipsa consequatur asperiores, assumenda error excepturi doloribus voluptate! consectetur adipisicing elit. Eaque molestiae eius et labore explicabo necessitatibus corrupti asperiores ipsum nobis ullam deleniti vitae aliquid nisi, obcaecati ratione? Debitis, maiores! Illum, quis?</p>
-            <a href="null" class="btn">editar perfil</a>
+            <a href="null" class="btn btn-perfil">editar perfil</a>
         </div> 
     </section>
 
         
     <section class="perfil-agenda">
-        <div class="container">
+        <div data-anime="1200" class="container fadeInDown">
             <h2>Agenda</h2>
-        </div>
-
-        <div class="agenda-lista container">
-            <img src="../img/pessoas/doc-3.jpg" alt="Dr Sergio">
-            <p>24 de maio de 2021. 16:00h</p>
-            <span>Dr. Sergio</span>
-            <a href="null" class="btn">editar</a>
-        </div>
-
-        <div class="agenda-lista container">
-            <img src="../img/pessoas/doc-1.jpg" alt="Dr Sergio">
-            <p>28 de maio de 2021. 16:00h</p>
-            <span>Dra. Cristina</span>
-            <a href="null" class="btn">editar</a>
-        </div>
-
-        <div class="agenda-lista container">
-            <img src="../img/pessoas/doc-4.jpg" alt="Dr Sergio">
-            <p>06 de junho de 2021. 16:00h</p>
-            <span>Dra. Julia</span>
-            <a href="null" class="btn">editar</a>
-        </div>
-
-        <div class="call-to-action">
-            <p>Acesse sua agenda para mais detalhes</p>
-            <a href="../perfil/perfil.html" class="btn btn-branco">Agenda</a>
+    
+            <div class="agenda-lista container">
+                <img src="../img/pessoas/doc-3.jpg" alt="Dr Sergio">
+                <p>24 de maio de 2021. 16:00h</p>
+                <span>Dr. Sergio</span>
+                <a href="null" class="btn">editar</a>
+            </div>
+    
+            <div class="agenda-lista container">
+                <img src="../img/pessoas/doc-1.jpg" alt="Dr Sergio">
+                <p>28 de maio de 2021. 16:00h</p>
+                <span>Dra. Cristina</span>
+                <a href="null" class="btn">editar</a>
+            </div>
+    
+            <div class="agenda-lista container">
+                <img src="../img/pessoas/doc-4.jpg" alt="Dr Sergio">
+                <p>06 de junho de 2021. 16:00h</p>
+                <span>Dra. Julia</span>
+                <a href="null" class="btn">editar</a>
+            </div>
+    
+            <div class="call-to-action">
+                <p>Acesse sua agenda para mais detalhes</p>
+                <a href="../perfil/perfil.html" class="btn btn-branco">Agenda</a>
+            </div>
         </div>
     </section>
 
@@ -123,6 +125,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="../js/simple-slide.js"></script>
+    <script src="../js/simple-anime.js"></script>
+    <script src="../js/script.js"></script>
 
 </body>
 </html>
