@@ -24,7 +24,6 @@
 	.box-14	    {width: 652px;}
 	.box-15	    {width: 700px;}
 	.box-16	    {width: 748px;}
-	.box-1-3	{width: 236px;}
 
     /* Index */
 
@@ -61,6 +60,10 @@
 
     .perfil-itens p {
         font-size: 18px;
+    }
+
+    .btn-perfil {
+        margin-left: 170px;
     }
 
     .agenda-lista {
@@ -256,6 +259,10 @@
 
     .perfil {
         margin-top: 0;
+    }
+
+    .btn-perfil {
+        margin-left: 55px;
     }
 
     .perfil-itens{

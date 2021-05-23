@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="../css/style.css" type="text/css">
     <link rel="stylesheet" href="../css/pesquisa.css" type="text/css">
     <link rel="stylesheet" href="../css/responsivo.css" type="text/css">
+
+    <script>document.documentElement.classList.add("js");</script>
+
 </head>
 <body>
     <header class="header">
@@ -26,11 +29,11 @@
         </div>
     </header>
 
-    <section class="formulario container">
+    <section data-anime="400" class="formulario container fadeInDown">
         <h1>Pesquise o melhor para você.</h1>
         <form action="#">
             <input id="busca" type="text">
-            <div class="filtros">
+            <div data-anime="800" class="filtros fadeInDown">
                 <h4>Filtros</h4>
                 <div class="filtro-item">
                     <label for="rating">rating atual: </label>
@@ -65,7 +68,7 @@
         </form>
     </section>
 
-    <section class="resultados container">
+    <section data-anime="1200" class="resultados container">
         <h2>Resultado da busca</h2>
         <div class="resultado-items">
             <div class="item">
@@ -135,6 +138,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="../js/simple-slide.js"></script>
+    <script src="../js/simple-anime.js"></script>
+    <script src="../js/script.js"></script>
 
 </body>
 </html>

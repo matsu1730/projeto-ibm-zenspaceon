@@ -40,6 +40,9 @@
     font-size: 18px;
     padding-bottom: 30px;
 }
+.btn-perfil {
+    margin-left: 265px;
+}
 .perfil-agenda {
     width: 100%;
     background: #17d19c;
@@ -57,6 +60,7 @@
     background-color: #FFF;
     color: #484B4D;
     margin-bottom: 20px;
+    border-radius: 12px;
 }
 
 .agenda-lista img {
@@ -64,6 +68,7 @@
     height: 40px;
     margin: 10px 10px;
     float: left;
+    border-radius: 100%;
 }
 
 .agenda-lista p, .agenda-lista span {

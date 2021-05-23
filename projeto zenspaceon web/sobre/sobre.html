@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre</title>
+    <title>ZenSpace ON - Sobre</title>
 
     <link rel="stylesheet" href="../css/normalize.css" type="text/css">
     <link rel="stylesheet" href="../css/reset.css" type="text/css">
     <link rel="stylesheet" href="../css/style.css" type="text/css">
     <link rel="stylesheet" href="../css/sobre.css" type="text/css">
     <link rel="stylesheet" href="../css/responsivo.css">
+
+    <script>document.documentElement.classList.add("js");</script>
+
 </head>
 <body>
     <header class="header">
@@ -28,20 +31,20 @@
 
     <section class="sobre-nos">
         <div class="container">
-            <h1>Saiba um pouco mais sobre nós.</h1>
-            <div class="box-11 texto">
+            <h1 data-anime="400" class="fadeInDown">Saiba um pouco mais sobre nós.</h1>
+            <div data-anime="800" class="box-11 texto fadeInDown">
                 <h3>História, Missão e Visão</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus provident commodi autem id repellat et, totam quaerat voluptatum a deleniti voluptates fugiat neque voluptatibus sint soluta. Ipsam repudiandae mollitia rerum.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eaque distinctio delectus labore vitae vero ullam ducimus in tempora. Excepturi quaerat iusto tempore voluptatibus. Pariatur soluta veniam delectus eum voluptatibus.</p>
             </div>
-            <div class="imagem">
+            <div data-anime="1200" class="imagem">
                 <img class="box-5" src="../img/zenspace-logo-2.png" alt="logo-2">
             </div>
         </div>
     </section>
     
     <section class="valores">
-        <div class="container">
+        <div data-anime="1600" class="container fadeInDown">
             <h2>Valores Zen Space ON</h2>
             <div class="valores-items">
                 <div class="item">
@@ -76,5 +79,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="../js/simple-slide.js"></script>
+    <script src="../js/simple-anime.js"></script>
+    <script src="../js/script.js"></script>
+
 </body>
 </html>

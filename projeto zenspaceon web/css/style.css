@@ -37,7 +37,6 @@
   .box-14 {width: 820px;}
   .box-15 {width: 880px;}
   .box-16 {width: 940px;}
-  .box-1-3 {width: 300px;}
 
 /* Estilos gerais */
 
@@ -230,6 +229,7 @@ img {
     background-color: #FFF;
     color: #484B4D;
     margin-bottom: 20px;
+    border-radius: 12px;
 }
 
 .home-agenda-lista img {
@@ -237,6 +237,7 @@ img {
     height: 40px;
     margin: 10px 10px;
     float: left;
+    border-radius: 100%;
 }
 
 .home-agenda-lista p, .home-agenda-lista span {
@@ -293,4 +294,41 @@ img {
     line-height: 20px;
     color: #FFF;
     padding: 20px 0;
+}
+
+/* JavaScript */
+
+
+/* Slide */
+
+.js [data-slide] {
+    position: relative;
+}
+
+.js [data-slide] > * {
+position: absolute;
+top: 0px;
+opacity: 0;
+}
+
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+
+/* Animação */
+
+.js [data-anime] {
+    opacity: 0;
+}
+
+.js .fadeInDown {
+    transform: translate3d(0,-20px,0);
+}
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform .8s, opacity .8s;
 }
