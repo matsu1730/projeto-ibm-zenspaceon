@@ -229,6 +229,7 @@ img {
     background-color: #FFF;
     color: #484B4D;
     margin-bottom: 20px;
+    border-radius: 12px;
 }
 
 .home-agenda-lista img {
@@ -236,6 +237,7 @@ img {
     height: 40px;
     margin: 10px 10px;
     float: left;
+    border-radius: 100%;
 }
 
 .home-agenda-lista p, .home-agenda-lista span {

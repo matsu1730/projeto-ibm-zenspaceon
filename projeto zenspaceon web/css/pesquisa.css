@@ -88,3 +88,7 @@
 .resultado-items .item img {
     margin-right: 10px;
 }
+
+.foto img {
+    border-radius: 100%;
+}
