@@ -1,0 +1,69 @@
+
+.sobre-nos {
+    margin-top: 92px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #484B4D;
+}
+
+.sobre-nos h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sobre-nos h3 {
+    margin-top: 30px;
+}
+
+.sobre-nos p {
+    margin-top: 20px;
+    max-width: 540px;
+}
+
+.sobre-nos .texto {
+    margin-right: 0;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.imagem img {
+    width: 280px;
+    height: 280px;
+    margin-top: 25px;
+}
+
+/* Valores */
+
+.valores {
+    width: 100%;
+    background-color: #17d19c;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.valores h2 {
+    padding-top: 20px;
+    padding-bottom: 140px;
+}
+
+.valores .valores-items {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-bottom: 180px;
+    align-items: flex-start;
+    align-items: center;
+}
+
+.valores-items .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.valores-items .item h4 {
+    font-weight: bold;
+    padding-bottom: 25px;
+}

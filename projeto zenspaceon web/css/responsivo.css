@@ -1,0 +1,330 @@
+/* Responsivo - Media Queries */
+
+
+/* Visualização para Tablets */
+@media only screen and (min-width:788px) and (max-width: 979px) {
+
+	.container {
+		width: 768px;
+	}
+
+	.box-1		{width: 28px;}
+	.box-2		{width: 76px;}
+	.box-3		{width: 124px;}
+	.box-4		{width: 172px;}
+	.box-5		{width: 220px;}
+	.box-6		{width: 268px;}
+	.box-7		{width: 316px;}
+	.box-8		{width: 364px;}
+	.box-9		{width: 412px;}
+	.box-10	    {width: 460px;}
+	.box-11	    {width: 508px;}
+	.box-12	    {width: 556px;}
+	.box-13	    {width: 604px;}
+	.box-14	    {width: 652px;}
+	.box-15	    {width: 700px;}
+	.box-16	    {width: 748px;}
+
+    /* Index */
+
+    .introducao {
+        margin-top: 85px;
+    }
+
+    /* Sobre */
+
+    .sobre-nos p {
+        max-width: 400px;
+    }
+
+    .sobre-nos .texto {
+        margin-right: 0;
+        text-align: left;
+        padding-right: 0;
+    }
+
+    .sobre-nos img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .valores-items .item {
+        padding: 0 15px;
+    }
+
+    /* Perfil */
+
+    .perfil-itens h1 {
+        font-size: 36px;
+    }
+
+    .perfil-itens p {
+        font-size: 18px;
+    }
+
+    .btn-perfil {
+        margin-left: 170px;
+    }
+
+    .agenda-lista {
+        width: 560px;
+    }
+
+    .pai {
+        align-items: flex-start;
+    }
+
+    /* Assinatura */
+
+    .planos {
+        width: 768px;
+    }
+
+    .plano-item-1{
+        width: 240px;
+        height: 180px;
+        text-align: center;
+    }
+    
+    .plano-item h2{ 
+        font-size: 48px;
+        color: #fff;
+    }
+    
+    .plano-item-2{
+        background-color: #3C7B69;
+        width: 240px;
+        height: 100px;
+        text-align: center;
+        padding: 10px 0;
+        color: #fff;
+    }
+	
+}
+
+
+/* Visualização para Smartphones */
+@media only screen and (max-width: 787px) {
+	.container {
+		width: 300px;
+	}
+	
+	.box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8, .box-9, .box-10, .box-11, .box-12, .box-13, .box-14, .box-15, .box-16, .box-1-3 {
+		width: 300px;
+		margin: 0 0 20px 0;
+		float: none;
+	}
+
+    .header {
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    .header img {
+		margin: 0 auto 10px auto;
+	}
+
+	.header-menu {
+		text-align: center;
+	}
+
+	.header-menu li {
+		margin: 5px;
+	}
+
+    .header-menu li a {
+		border: 4px solid #FFF;
+        border-radius: 8px;
+		display: block;
+		width: 120px;
+		float: left;
+		padding: 10px 0;
+	}
+
+    .header-menu li a:hover {
+        border-color: #484B4D;
+    }
+    
+    /* Index */
+
+    .introducao {
+        margin-top: 0;
+    }
+
+    .introducao p {
+        color: #FFF;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 40px 0 40px 0;
+    }
+
+    .home-opinioes {
+        text-align: center;
+        color: #484B4D;
+        max-width: 100%;
+    }
+    
+    .home-opinioes p {
+        margin: 40px 0 10px 0;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0;
+        font-style: italic;
+    }
+    
+    .home-opinioes cite {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    .call-to-action {
+        text-align: center;
+        clear: both;
+        padding: 20px 0 40px 0;
+    }
+
+    .call-to-action p {
+        padding-bottom: 10px;
+    }
+
+    .home-agenda-lista p, .home-agenda-lista span {
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .quebra p {
+        margin: 70px auto 10px auto;
+        font-size: 14px;
+        line-height: 20px;
+        font-style: italic;
+        padding: 0;
+    }
+
+    .footer-copyright {
+        padding-top: 20px;
+    }
+
+    /* Sobre */
+
+    .sobre-nos {
+        margin-top: 20px;
+    }
+
+    .valores .valores-items {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .item {
+        margin-bottom: 60px;
+    }
+
+    /* Pesquisa */
+
+    .formulario {
+        margin-top: 20px;
+    }
+
+    #busca {
+        width: 300px;
+    }
+
+    .filtros h4 {
+        margin-left: 40px;
+    }
+
+    .filtro-item {
+        width: 300px;
+    }  
+
+    .filtro-item .item {
+        width: 150px;
+    }
+
+    .filtros .btn {
+        margin-bottom: 60px;
+    }
+
+    .resultado-items .item{
+        width: 300px;
+    }
+
+    .conteudo span {
+        font-size: 14px;
+    }
+
+    /* Perfil */
+
+    .perfil {
+        margin-top: 0;
+    }
+
+    .btn-perfil {
+        margin-left: 55px;
+    }
+
+    .perfil-itens{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .perfil-itens h1{
+        margin-top: 10px;
+        font-size: 36px;
+    }
+
+    .perfil-itens p{
+        padding-top: 15px;
+        font-size: 18px;
+    }
+
+    .box-bio {
+        padding: 0;
+    }
+
+    .agenda-lista {
+        height: 160px;
+        flex-direction: column;
+    }
+
+    .agenda-lista img {
+        margin-bottom: 0;
+    }
+
+    .agenda-lista p, .agenda-lista span {
+        padding-top: 10px;
+    }
+
+    .agenda-lista .btn {
+        text-align: center;
+        width: 100px;
+        padding: 3px 5px;
+        margin: 0 auto 10px auto;
+    }
+
+    .perfil-planos h1 {
+        margin-left: 55px;
+    }
+    .atual {
+        width: 400px;
+    }
+
+    /* Assinatura */
+
+    .cabecalho {
+        margin-top: 0;
+        padding-top: 60px;
+    }
+
+    .planos {
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .plano-item {
+        margin-top: 20px;
+    }
+
+}

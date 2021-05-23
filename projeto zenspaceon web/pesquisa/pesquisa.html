@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenSpace ON - Pesquisa</title>
+
+    <link rel="stylesheet" href="../css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/pesquisa.css" type="text/css">
+    <link rel="stylesheet" href="../css/responsivo.css" type="text/css">
+
+    <script>document.documentElement.classList.add("js");</script>
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="../index/index.html" class="box-4"><img src="../img/zenspace-logo.png" alt="Logo ZenSpace ON"></a>
+            <nav>
+                <ul class="box-12 header-menu">
+                    <li><a href="../sobre/sobre.html">Sobre</a></li>
+                    <li><a href="../pesquisa/pesquisa.html" class="menu-ativo">Pesquisa</a></li>
+                    <li><a href="../perfil/perfil.html">Perfil</a></li>
+                    <li><a href="../assinatura/assinatura.html">Assinatura</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section data-anime="400" class="formulario container fadeInDown">
+        <h1>Pesquise o melhor para você.</h1>
+        <form action="#">
+            <input id="busca" type="text">
+            <div data-anime="800" class="filtros fadeInDown">
+                <h4>Filtros</h4>
+                <div class="filtro-item">
+                    <label for="rating">rating atual: </label>
+                    <select class="item" name="rating" id="IdRating">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+
+                <div class="filtro-item">
+                    <label for="disponibilidade">disponibilidade: </label>
+                    <select class="item" name="disponibilidade" id="IdDisponibilidade">
+                        <option value="total">Total</option>
+                        <option value="semanal">Durante a semana</option>
+                        <option value="finalDeSemana">Finais de semana</option>
+                    </select>
+                </div>
+
+                <div class="filtro-item">
+                    <label for="numeroConsutas">consultas totais: </label>
+                    <select class="item" name="numeroConsultas" id="IdNumeroConsultas">
+                        <option value="200+">Acima de 200</option>
+                        <option value="100">100 consultas</option>
+                    </select>
+                </div>
+
+                <input class="btn" type="submit" value="Buscar">
+            </div>
+        </form>
+    </section>
+
+    <section data-anime="1200" class="resultados container">
+        <h2>Resultado da busca</h2>
+        <div class="resultado-items">
+            <div class="item">
+                <div class="foto">
+                    <img src="../img/pessoas/doc-1.jpg" alt="pessoa1">
+                </div>
+                <div class="conteudo">
+                    <h4>Dra.Cristina</h4>
+                    <span>Rating: 5.0</span>
+                    <span>Disponibilidade: 8:00 às 16:00</span>
+                    <span>Consultas: 540</span>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="foto">
+                    <img src="../img/pessoas/doc-1.jpg" alt="pessoa1">
+                </div>
+                <div class="conteudo">
+                    <h4>Dra.Cristina</h4>
+                    <span>Rating: 5.0</span>
+                    <span>Disponibilidade: 8:00 às 16:00</span>
+                    <span>Consultas: 540</span>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="foto">
+                    <img src="../img/pessoas/doc-1.jpg" alt="pessoa1">
+                </div>
+                <div class="conteudo">
+                    <h4>Dra.Cristina</h4>
+                    <span>Rating: 5.0</span>
+                    <span>Disponibilidade: 8:00 às 16:00</span>
+                    <span>Consultas: 540</span>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="foto">
+                    <img src="../img/pessoas/doc-1.jpg" alt="pessoa1">
+                </div>
+                <div class="conteudo">
+                    <h4>Dra.Cristina</h4>
+                    <span>Rating: 5.0</span>
+                    <span>Disponibilidade: 8:00 às 16:00</span>
+                    <span>Consultas: 540</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="quebra">
+        <blockquote class="quote-externo container">
+            <p>
+                "A felicidade se espalha. Quando nós escolhemos a felicidade, fica mais fácil para os outros também escolhê-la."   
+            </p>
+            <cite>Shawn Achor</cite>
+        </blockquote>
+    </section>
+
+    <footer>
+        <div class="footer-copyright">
+            <div class="container">
+                <small class="box-16">ZenSpace ON 2021 - Alguns direitos reservados.</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/simple-slide.js"></script>
+    <script src="../js/simple-anime.js"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+</html>

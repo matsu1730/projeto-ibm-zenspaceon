@@ -1,0 +1,89 @@
+.cabecalho {
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 92px;
+}
+
+.planos {
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.plano-item {
+    margin-top: 60px;
+}
+
+.plano-item-1{
+    background-color: #17d19c;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+
+.plano-item-1 h2{ 
+    padding-top: 70px;
+    font-size: 48px;
+    color: #fff;
+}
+
+.plano-item-2{
+    background-color: #3C7B69;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.formulario-container {
+    width: 100%;
+    background-color: #17d19c;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.plano-assinatura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-container h2 {
+    padding-top: 60px;
+    margin-bottom: 40px;
+} 
+
+.opcao-pagamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 290px;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.opcao-pagamento label {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.opcao-pagamento .item {
+    height: 20px;
+    width: 50vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #17d19c;
+    color: #fff;
+    font-weight: bold;
+}

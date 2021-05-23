@@ -1,12 +1,13 @@
 .perfil{
- margin-top: 92px;
-padding-top: 60px;
+    margin-top: 92px;
+    padding: 60px 0;
+    color: #484B4D;
 }
 .perfil img{
     width: 220px;
     height: 220px;
     text-align: center;
-    margin: 0 120px;
+    margin: 0 auto;
     align-items: center;
 
 }
@@ -25,6 +26,10 @@ padding-top: 60px;
     padding-top: 20px ;
     font-size: 24px;
 }
+.box-bio{
+    padding: 0 120px;
+    margin-top: 40px;
+}
 .box-bio h3{
     font-size: 36px;
     font-weight: bold;
@@ -35,63 +40,78 @@ padding-top: 60px;
     font-size: 18px;
     padding-bottom: 30px;
 }
-.box-bio{
-    padding: 0 120px;
-    margin-top: 40px;
+.btn-perfil {
+    margin-left: 265px;
 }
-.alinhar .btn{
-    
-    
-
-
-}
-.conteiner-2{
-    background-color: #17d19c;
-    padding-bottom: 60px;
-    color:#ffffff;
-}
-
-.conteiner-2 h2{
+.perfil-agenda {
+    width: 100%;
+    background: #17d19c;
     text-align: center;
-    padding-top: 30px;
-
+    color: #FFF;
+    padding-bottom: 20px;
 }
-.home-agenda-lista .btn{
+.perfil-agenda h2 {
+    margin-bottom: 40px;
+}
+.agenda-lista {
+    display: flex;
+    width: 620px;
+    height: 60px;
+    background-color: #FFF;
+    color: #484B4D;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.agenda-lista img {
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px;
+    float: left;
+    border-radius: 100%;
+}
+
+.agenda-lista p, .agenda-lista span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 20px 10px 0 10px;
+    align-items: center;
+}
+
+.agenda-lista p {
+    flex-grow: 1;
+    flex-basis: 50px;
+    text-align: left;
+}
+.agenda-lista .btn{
     padding: 3px 10px;
     height: 20px;
     margin-top:15px ;
     margin-right: 5px;
 }
-.conteiner-2 h4{
-    margin-left: 33vw;
-    font-size: 24px;
-    margin-bottom: 5px;
-}
-.conteiner-3{
+.perfil-planos{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #484B4D;
+    margin-bottom: 20px;
 }
-.conteiner-3 h1{
+.perfil-planos h1{
     font-size: 36px;
     font-weight: bold;
     margin-top: 30px;
-    margin-bottom: 30px;
-    
-
-}
-.atual{
-    border: 3px solid #17d19c;
-    width: 500px;
-    display: flex;
-    flex-direction: row;
-
+    margin-bottom: 30px; 
 }
 .pai{
     display: flex;
     flex-direction: column;
 }
 .atual{
+    border: 1px solid #17d19c;
+    border-radius: 8px;
+    width: 500px;
+    height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -103,17 +123,14 @@ padding-top: 60px;
     font-size: 25px;
     font-weight: bold;
     text-transform:capitalize;
+    float: left;
 }
 .pai .btn{
-    padding: 3px 10px;
-    height: 20px;
-    margin-top:15px ;
-    margin-right: 260px;
-    margin-left: 250px;
-    margin-bottom:30px ;
+    padding: 10px 10px;
+    margin: 20px 260px 30px 260px;
 
 }
 .pai p{
-
-    font-size: 18px;
+    font-size: 14px;
+    padding: 0 5px;
 }
